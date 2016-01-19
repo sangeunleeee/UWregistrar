@@ -1,0 +1,67 @@
+<html>
+<head>
+	<title></title>
+	<script src="http://code.jquery.com/jquery-1.10.2.js"></script>
+<script> 
+	$(function(){
+	  $("head").load("header.html"); 
+	  $('#student-sidebar-records').load('student-sidebar-records.html')
+	});
+	</script> 
+</head>
+<body>
+	<div id="header"></div>
+	<div class="jumbotron uw-hero-image student">
+		<div class="container">
+			<h1 class="banner-text">Students</h1>
+		</div>
+	</div>
+	<div class="container uw-body">
+		<div class="row">
+			<div class="col-md-9 uw-content">
+				<div class="col-md-4">
+					<ul class="uw-sidebar-menu first level" style="padding:0px; margin:0px">
+						<li class="pagenav">
+							<ul>
+								<li class="page-item page_item_has_children current_page_item">
+									<a href="students-records.html">Find Records</a>
+									<ul class="children">
+										</li>
+										<li class="page_item">
+											<a href="construction.html">Order a Transcript</a>
+										</li>
+										<li class="page_item">
+											<a href="construction.html">Verify a Degree</a>
+										</li>
+										<li class="page_item">
+											<a href="construction.html">Student Resources for Degree Audit (DARS)</a>
+										</li>
+										<li class="page_item">
+											<a href="students-records-deans-list.html">Check Dean's List and See Letter</a>
+										</li>
+										<li class="page_item">
+											<a href="construction.html">Verify Your Enrolment</a>
+										</li>
+									</ul>
+								</li>
+							</ul>
+						</li>
+					</ul>
+				</div>
+				<div class="col-md-8">
+					<h2>Find Records</h2>
+					<h3></h3>
+					<p>
+						Here you can find and retrieve various records from your academic career. 
+					</p>
+
+				</div>
+			</div>
+			<div class="col-md-3 uw-siderbar" id="student-sidebar-records">
+			</div>
+		</div>
+	</div>
+<!--Remaining section-->
+	<div id="footer"></div>
+</body>
+</html

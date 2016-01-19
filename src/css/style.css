@@ -1,0 +1,121 @@
+
+.logo{
+    padding-left: 80px;
+    height: 80%;
+}
+
+.name{
+    height:60%;
+    padding-left: 30px;
+}
+
+.photo{
+    width: 180px;
+    margin-bottom:10px;
+    margin-top: 30px;
+    position: relative;
+    left:-20px;
+}
+
+h1,h2{
+    color:#561684;
+}
+
+.siderbar-title{
+    position: relative;
+    top: 20px;
+    color: #561684;
+    margin-bottom: 50px;
+}
+
+.textwidget{
+    
+}
+
+.jumbotron{
+   background-image: url(http://www.washington.edu/static/home/files/2015/05/shelly.jpg);
+}
+
+.udub-slant span{
+    background-color: #b7a57a !important;
+}
+
+.index{
+    height:350px;
+}
+.siderbar-text{
+    margin-bottom: 3px !important;
+}
+
+
+ul{
+    list-style-type: none;
+}
+.student{
+    background-image: url(http://www.washington.edu/studentlife/files/2014/10/dsl-banner.jpg);
+}
+
+.faculty{
+    background-image: url(http://www.washington.edu/wp-content/themes/uw-2014/assets/headers/suzzallo.jpg);
+}
+.about{
+    background-image: url("bg_2.jpg");
+}
+.image-text{
+    display: table;
+}
+.text{
+     vertical-align: middle;
+     display: table-cell;
+     padding-left: 10px;
+}
+.banner-text{
+    color: #fff !important;
+}
+.sub-links{
+    padding-left: 0px !important;
+}
+
+#custom-search-input{
+    border: solid 1px #E4E4E4;
+    background-color: #fff;
+    margin-top: 30px;
+}
+
+#custom-search-input input{
+    border: 0;
+    box-shadow: none;
+}
+
+#custom-search-input button{
+    margin: 2px 0 0 0;
+    background: none;
+    box-shadow: none;
+    border: 0;
+    color: #666666;
+    padding: 0 8px 0 10px;
+    border-left: solid 1px #ccc;
+}
+
+#custom-search-input button:hover{
+    border: 0;
+    box-shadow: none;
+    border-left: solid 1px #ccc;
+}
+
+#custom-search-input .glyphicon-search{
+    font-size: 18px;
+}  
+
+p .p-small{
+    font-size: 14px;
+}
+
+.uw-sidebar{
+    padding-top: 0px !important;
+}
+
+ul .side-sidebar{
+    margin-top: 0px !important;
+    padding: 0px !important;
+}

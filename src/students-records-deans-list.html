@@ -1,0 +1,79 @@
+<html>
+<head>
+	<title></title>
+	<script src="http://code.jquery.com/jquery-1.10.2.js"></script>
+<script> 
+	$(function(){
+	  $("head").load("header.html"); 
+	  $('#student-sidebar-records').load('student-sidebar-records.html')
+	});
+	</script> 
+</head>
+<body>
+	<div id="header"></div>
+	<div class="jumbotron uw-hero-image student">
+		<div class="container">
+			<h1 class="banner-text">Students</h1>
+		</div>
+	</div>
+	<div class="container uw-body">
+		<div class="row">
+			<div class="col-md-9 uw-content">
+				<div class="col-md-4">
+					<ul class="uw-sidebar-menu first level" style="padding:0px; margin:0px">
+						<li class="pagenav">
+							<ul>
+								<li class="page-item page_item_has_children current_page_item">
+									<a href="students-records.html">Find Records</a>
+									<ul class="children">
+										</li>
+										<li class="page_item">
+											<a href="construction.html">Order a Transcript</a>
+										</li>
+										<li class="page_item">
+											<a href="construction.html">Verify a Degree</a>
+										</li>
+										<li class="page_item">
+											<a href="construction.html">Student Resources for Degree Audit (DARS)</a>
+										</li>
+										<li class="page_item">
+											<a href="students-records-deans-list.html">Check Dean's List and See Letter</a>
+										</li>
+										<li class="page_item">
+											<a href="construction.html">Verify Your Enrolment</a>
+										</li>
+									</ul>
+								</li>
+							</ul>
+						</li>
+					</ul>
+				</div>
+				<div class="col-md-8">
+					<h2>Dean's List</h2>
+					<h3>Have you qualified for the Dean's List?</h3>
+					<p>
+						Students qualify for the Dean's List if they have attained a quarterly GPA of 3.5 in their final grades for at least 12 graded credits and are matriculated undergraduate students pursuing their first undergraduate degree. A student's quarterly Dean's List status is part of their permanent academic record, and is indicated on transcripts.
+					</p>
+					<p>
+						A list of Dean's List recipients for the previous quarter is available online on the <a href="http://www.washington.edu/students/qtrdean" class="links">Student Guide's Quarterly Dean's List</a>.
+					</p>
+					<p>
+						As well, students who have qualified for the quarterly Dean's List will receive email notification of a Dean's List letter. These letters are generated once per quarter, a few weeks after grades are due for that quarter. Dean's List letters are only generated and available for students who met the Dean's List criteria at the time the letters were generated. Dean's List letters are not updated based on late changes to the academic record.
+					</p>
+					<h3>Would you like a copy of your Dean's List Letter?</h3>
+					<p>
+						Please enter your Student Number below. You will be required to login to verify your identity as required by the Family Educational Rights and Privacy Act. For more information visit <a href="http://www.washington.edu/students/reg/ferpa.html" class="links">UW's FERPA for Students</a>.
+					</p>
+					<h5>Student ID</h5>
+					<input type="search" value=""></input>
+					<a class="uw-btn" href="construction.html">Find Dean's List Letter</a>
+				</div>
+			</div>
+			<div class="col-md-3 uw-siderbar" id="student-sidebar-records">
+			</div>
+		</div>
+	</div>
+<!--Remaining section-->
+	<div id="footer"></div>
+</body>
+</html
